@@ -1,7 +1,9 @@
-import { Text } from 'react-native';
+import Home from "./src/screens/home/home.jsx"; 
 
-export default function App() {
+function App() {
   return (
-      <Text>Jornada JS</Text>
+      <Home />
   );
 }
+
+export default App;
