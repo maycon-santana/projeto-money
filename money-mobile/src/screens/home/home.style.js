@@ -5,7 +5,8 @@ export const styles = {
         flex: 1,
         backgroundColor: COLORS.white,
         alignItems: "center",
-        padding: 20
+        padding: 20,
+        marginTop: 50,
     },
     logo: {
         width:  100,
@@ -16,7 +17,7 @@ export const styles = {
         backgroundColor: COLORS.blue,
         padding: 20,
         borderRadius: 20,
-        marginTop: 10,
+        marginTop: 20,
         flexDirection: "row",
         justifyContent: "space-between"
     },
@@ -32,5 +33,19 @@ export const styles = {
     dashboardImg: {
         width: 35,
         height: 60
+    },
+    despesasTitulo: {
+        fontSize: FONT_SIZE.sm,
+        color: COLORS.dark_gray,
+        marginTop: 15,
+        fontWeight: "bold"
+    },
+    btnAdd: {
+        possition: "absolute",
+        bottom: 12
+    },
+    btnAddImage: {
+        width: 50,
+        height: 50
     }
 }
